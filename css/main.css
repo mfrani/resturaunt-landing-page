@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("../images/rachel-park-366508-unsplash.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Yesteryear", cursive;
+  font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.nav-menu {
+  list-style: none;
+  color: #fff;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover {
+  color: #f2ac32;
+}
+
+.header-title-1 {
+  color: #f2ac32;
+  font-size: 44px;
+  font-family: "Rochester", cursive;
+  margin-top: 170px;
+  margin-bottom: 15px;
+}
+
+.header-title-2 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 55px;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+}
+
+.header-cta-button {
+  color: white;
+  background-color: #f2ac32;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+  background-color: #a07121;
+}
+.search {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-bag {
+  font-size: 26px;
+}
+
+/* Discover Section */
+.discover-section {
+  background-color: #c3c3c3;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.food-border {
+  border: 2px solid;
+  color: #f2ac32;
+  position: relative;
+}
+.food-overlay {
+  padding: 100px 10px 0 10px;
+  position: absolute;
+  right: 17px;
+  top: 10px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+}
+
+.food-item {
+  height: 420px;
+  width: 270px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.food-1 {
+  background-size: cover;
+  background-image: url("../images/edward-guk-357344-unsplash.jpg");
+  margin-top: -30px;
+  -webkit-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+}
+
+.food-2 {
+  background-size: cover;
+  background-image: url("../images/klara-avsenik-1304826-unsplash.jpg");
+  -webkit-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 36px 9px rgba(0, 0, 0, 0.37);
+}
+.food-item p {
+  color: #888888;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.food-item a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #f2ac32;
+}
+
+.discover-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.discover-h2 {
+  font-family: "Oswald", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+/* Specialties Section */
+
+.specialties-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/dan-gold-298710-unsplash.jpg");
+}
+
+.specialties-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+.specialties-h2 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+}
+
+.specialties-middle {
+  text-align: center;
+  position: relative;
+}
+
+.specialties-row {
+  display: flex;
+  justify-content: center;
+}
+
+.specialties-image1,
+.specialties-image2,
+.specialties-image3 {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.specialties-col {
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.specialties-image1 {
+  background-size: cover;
+  background-image: url("../images/cayla1-150730-unsplash.jpg");
+}
+
+.specialties-image1:hover .specialties-overlay,
+.specialties-image2:hover .specialties-overlay,
+.specialties-image3:hover .specialties-overlay {
+  opacity: 1;
+}
+
+.specialties-image2 {
+  background-size: cover;
+  background-image: url("../images/loija-nguyen-1281897-unsplash.jpg");
+}
+.specialties-image3 {
+  background-size: cover;
+  background-image: url("../images/vita-marija-murenaite-691144-unsplash.jpg");
+}
+
+.specialties-h3 {
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 80px;
+}
+
+.specialties-overlay {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(242, 172, 50, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.specialties-overlay-border {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.specialties-middle:before {
+  content: "";
+  position: absolute;
+  border-top: 100px solid #c3c3c3;
+  border-right: 100vw solid transparent;
+  top: -100px;
+  left: 0;
+}
+
+.specialties-middle:after {
+  content: "";
+  position: absolute;
+  border-bottom: 100px solid #c3c3c3;
+  border-left: 100vw solid transparent;
+  bottom: -100px;
+  right: 0;
+}
+
+/* SPECIALTIES SECTION END */
+
+/* SPECIAL MENU SECTION */
+
+.special-menu-section {
+  text-align: center;
+  background-color: #c3c3c3;
+  padding: 50px;
+}
+.special-menu-h1 {
+  font-family: "Rochester", cursive;
+  color: #f2ac32;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.special-menu-h2 {
+  color: #000;
+  margin-bottom: 50px;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
