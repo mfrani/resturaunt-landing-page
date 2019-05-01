@@ -304,3 +304,61 @@ nav {
   font-size: 50px;
   letter-spacing: 2px;
 }
+
+.special-menu-h3 {
+  width: 100%;
+  font-family: "Rochester", cursive;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.seperator {
+  width: 40px;
+  display: inline-block;
+  border-bottom: 2px solid white;
+  margin: 15px auto;
+}
+
+.special-menu-h4 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+.special-menu-p {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.special-menu-col {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.col-large {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.col-large-1 {
+  background-color: #f2ac32;
+  color: #fff;
+  justify-content: center;
+}
+
+.fa-ice-cream {
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.col-large-2 {
+  background-image: url("/images/markus-spiske-755509-unsplash.jpg");
+  background-size: cover;
+}
